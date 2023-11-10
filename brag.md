@@ -1,0 +1,29 @@
+---
+title: BRAG
+layout: default
+---
+
+Achievements
+------------
+
+*   Researched, designed, and implemented a new system for deploying modules including fallbacks and version management
+*   Introduced several new checks to platform repo
+*   Lead several incidents and followed up with post-mortems
+*   Initialised and lead EKS upgrade to bring new infrastructure to downstream version
+*   Heavily expanded platform repo with new modules and objects in order to enable a more DRY development environment
+*   Lead initiative to centralise all Whereby accounts to non-personal ownership and limit API keys
+
+Design and documentation
+------------------------
+
+*   Extended platform documentation, contribution guides, etc.
+*   Created github-actions repo and extrapolated deployment process for builds across company which have subsequently been made open-source
+*   Designed and implemented certificate-management EKS addon
+
+Company building
+----------------
+
+*   Lead "programming for non programmers" initiative in order to improve non-tech members' understanding of APIs, databases, etc.
+*   Established "newbie forum" aimed at improving onboarding experience for new Wherebyrds
+*   Lead cost reduction initiative in sandbox accounts
+*   Shared a lot of dog photos

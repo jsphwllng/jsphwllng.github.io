@@ -1,0 +1,10 @@
+- name: Index
+  link: /
+- name: Blog
+  link: /blog.html
+- name: CV
+  link: /cv.html
+- name: CONTACT
+  link: /contact.html
+- name: BRAG
+  link: /brag.html

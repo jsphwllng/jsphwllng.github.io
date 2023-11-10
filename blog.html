@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+---
+<h1>{{title}}</h1>
+<ul>
+  {% assign posts = site.blog | sort: 'order' | reverse %}
+  {% comment %}
+  {% count is 17 %}
+  {% endcomment %}
+  {% for blog in posts %}
+  {% unless blog.title == "Default" %}
+    <li>
+<a href="{{ blog.url }}">{{ blog.title | downcase }}</a>
+  </li>
+  {% endunless %}
+  {% endfor %}
+</ul>
+

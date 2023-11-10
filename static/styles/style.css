@@ -1,0 +1,137 @@
+.prettyprint {
+     background: #f7f3f7;
+     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+     border: 0 !important;
+     font-size: 12.5px;
+}
+ .pln {
+     color: #1b181b;
+}
+/* Specify class=linenums on a pre to get line numbering */
+ ol.linenums {
+     margin-top: 0;
+     margin-bottom: 0;
+     color: #5a7b8c;
+}
+ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+    /* padding-left: 1em;
+     */
+     background-color: #f7f3f7;
+     list-style-type: decimal;
+}
+ @media screen {
+    /* string content */
+     .str {
+         color: #918b3b;
+    }
+    /* keyword */
+     .kwd {
+         color: #7b59c0;
+    }
+    /* comment */
+     .com {
+         color: #5a7b8c;
+    }
+    /* type name */
+     .typ {
+         color: #516aec;
+    }
+    /* literal value */
+     .lit {
+         color: #a65926;
+    }
+    /* punctuation */
+     .pun {
+         color: #1b181b;
+    }
+    /* lisp open bracket */
+     .opn {
+         color: #1b181b;
+    }
+    /* lisp close bracket */
+     .clo {
+         color: #1b181b;
+    }
+    /* markup tag name */
+     .tag {
+         color: #ca402b;
+    }
+    /* markup attribute name */
+     .atn {
+         color: #a65926;
+    }
+    /* markup attribute value */
+     .atv {
+         color: #159393;
+    }
+    /* declaration */
+     .dec {
+         color: #a65926;
+    }
+    /* variable name */
+     .var {
+         color: #ca402b;
+    }
+    /* function name */
+     .fun {
+         color: #516aec;
+    }
+     body {
+         font-family: menlo,monospace;
+         max-width: 450px;
+         margin-top: 5rem;
+         margin-right: 2.5rem;
+         margin-bottom: 2rem;
+         margin-left: 2.5rem;
+         font-size: 12.5px;
+    }
+     p {
+         color: #071013;
+         font-size: 12.5px;
+    }
+     code {
+         display: block;
+         white-space: pre-wrap;
+        /* background-color: ghostwhite;
+         */
+        /* font-size: 12px;
+         */
+    }
+     a {
+         color: blue
+    }
+     ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3px;
+         list-style-type: disc
+    }
+     h1 {
+         font-weight: unset;
+         font-size:12.5px;
+         text-transform: uppercase;
+         text-transform: uppercase;
+    }
+     h2 {
+         font-weight: unset;
+         text-transform: uppercase;
+         font-size: 12.5px 
+    }
+     h3 {
+         text-transform: uppercase;
+         font-weight: unset;
+         font-size: 12.5px;
+    }
+
+     bold {
+         font-size: 12.5px;
+    }
+
+     img {
+         max-width: min(450px, 85vw) 
+    }
+     body {
+         background-color: #fff 
+    }
+}
+ 
