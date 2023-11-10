@@ -6,7 +6,7 @@ layout: default
 Achievements
 ------------
 
-*   Researched, designed, and implemented a new system for deploying modules including fallbacks and version management
+*   Researched, designed, and implemented a new system for deploying modules including fallbacks, automatic module deletion and version management
 *   Introduced several new checks to platform repo
 *   Lead several incidents and followed up with post-mortems
 *   Initialised and lead EKS upgrade to bring new infrastructure to downstream version
