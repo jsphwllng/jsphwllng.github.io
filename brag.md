@@ -12,6 +12,7 @@ Achievements
 *   Initialised and lead EKS upgrade to bring new infrastructure to downstream version
 *   Heavily expanded platform repo with new modules and objects in order to enable a more DRY development environment
 *   Lead initiative to centralise all Whereby accounts to non-personal ownership and limit API keys
+*   Extended image-builder module with multiple lambdas including slack notifications and cleanup jobs.
 
 Design and documentation
 ------------------------
@@ -19,6 +20,7 @@ Design and documentation
 *   Extended platform documentation, contribution guides, etc.
 *   Created github-actions repo and extrapolated deployment process for builds across company which have subsequently been made open-source
 *   Designed and implemented certificate-management EKS addon
+*   Designed versioning tools for platform repository including notifications of conflicting PRs, draft versions and auto-cleanup
 
 Company building
 ----------------
