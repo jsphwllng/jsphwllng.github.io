@@ -13,7 +13,6 @@ Achievements
 *   Heavily expanded platform repo with new modules and objects in order to enable a more DRY development environment.
 *   Lead initiative to centralise all Whereby accounts to non-personal ownership and limit API keys.
 *   Extended image-builder module with multiple lambdas including slack notifications and cleanup jobs.
-* Researched and implemented fix for SES complaints incident resulting in Whereby maintaining its email capabilities.
 
 Design and documentation
 ------------------------
