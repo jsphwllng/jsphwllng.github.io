@@ -2,7 +2,7 @@
      background: #f7f3f7;
      font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
      border: 0 !important;
-     font-size: 12.5px;
+     font-size: 16px;
 }
  .pln {
      color: #1b181b;
@@ -83,11 +83,11 @@
          margin-right: 2.5rem;
          margin-bottom: 2rem;
          margin-left: 2.5rem;
-         font-size: 12.5px;
+         font-size: 16px;
     }
      p {
          color: #071013;
-         font-size: 12.5px;
+         font-size: 16px;
     }
      code {
          display: block;
@@ -107,24 +107,24 @@
          list-style-type: disc
     }
      h1 {
-         font-weight: unset;
-         font-size:12.5px;
+         font-weight: bold;
+         font-size:16px;
          text-transform: uppercase;
          text-transform: uppercase;
     }
      h2 {
-         font-weight: unset;
+         font-weight: bold;
          text-transform: uppercase;
-         font-size: 12.5px 
+         font-size: 16px 
     }
      h3 {
          text-transform: uppercase;
-         font-weight: unset;
-         font-size: 12.5px;
+         font-weight: bold;
+         font-size: 16px;
     }
 
      bold {
-         font-size: 12.5px;
+         font-size: 16px;
     }
 
      img {
