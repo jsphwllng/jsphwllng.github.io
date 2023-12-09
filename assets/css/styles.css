@@ -77,8 +77,8 @@
          color: #516aec;
     }
      body {
-         font-family: menlo,monospace;
-         max-width: 450px;
+          font-family: 'Inconsolata', monospace;
+          max-width: 450px;
          margin-top: 5rem;
          margin-right: 2.5rem;
          margin-bottom: 2rem;

@@ -1,35 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-  <html prefix="og: http://ogp.me/ns#">
-   <!-- HTML Meta Tags -->
-   <meta name="description" content="{{ page.description }}">
- 
-   <!-- Facebook Meta Tags -->
-   <meta prefix="og: http://ogp.me/ns#" property='og:type' content='website'/>
-   <meta prefix="og: http://ogp.me/ns#" property='og:title' content='{{ page.title }}'/>
-   <meta prefix="og: http://ogp.me/ns#" property='og:description' content='{{ page.description }}'/>
-   <meta prefix="og: http://ogp.me/ns#" property='og:image' content='static/preview.jpg'/>
- 
-   <!-- Twitter Meta Tags -->
-   <meta name="twitter:card" content="summary_large_image">
-   <meta property="twitter:domain" content="jsphwllng.com">
-   <meta property="twitter:url" content="{{ page.title }}">
-   <meta name="twitter:title" content="{{ page.title }}">
-   <meta name="twitter:description" content="{{ page.description }}">
-   <meta name="twitter:image" content="/static/preview.jpg">
-   <title>{{ page.title }}</title>
-      <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <html prefix="og: http://ogp.me/ns#">
+      <!-- HTML Meta Tags -->
+      <meta name="description" content="{{ page.description }}" />
 
-  <link rel="shortcut icon" type="image/png" href="../favicon.ico">
+      <!-- Facebook Meta Tags -->
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:type"
+        content="website"
+      />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:title"
+        content="{{ page.title }}"
+      />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:description"
+        content="{{ page.description }}"
+      />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:image"
+        content="static/preview.jpg"
+      />
 
-  <body>
-    <h1> {{ page.title | upcase}} </h1>
-    {{ content }}
-    {% include footer.html %}
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="jsphwllng.com" />
+      <meta property="twitter:url" content="{{ page.title }}" />
+      <meta name="twitter:title" content="{{ page.title }}" />
+      <meta name="twitter:description" content="{{ page.description }}" />
+      <meta name="twitter:image" content="/static/preview.jpg" />
+      <title>{{ page.title }}</title>
+      <link rel="stylesheet" href="/assets/css/styles.css" />
+
+      <link rel="shortcut icon" type="image/png" href="../favicon.ico" />
+
+      <body>
+        <h1>{{ page.title | upcase}}</h1>
+        {{ content }} {% include footer.html %}
       </body>
+    </html>
+  </head>
 </html>
