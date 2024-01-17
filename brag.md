@@ -13,6 +13,9 @@ Achievements
 *   Heavily expanded platform repo with new modules and objects in order to enable a more DRY development environment.
 *   Lead initiative to centralise all Whereby accounts to non-personal ownership and limit API keys.
 *   Extended image-builder module with multiple lambdas including slack notifications and cleanup jobs.
+*   Increased stability of recording service by fixing an issue that had stumped other developers for 6 months.
+*   Lead responses to multiple incidents.
+*   Helped various engineers with broken deployments in #deployments.
 
 Design and documentation
 ------------------------
@@ -28,4 +31,5 @@ Company building
 *   Lead "programming for non programmers" initiative in order to improve non-tech members' understanding of APIs, databases, etc.
 *   Established "newbie forum" aimed at improving onboarding experience for new Wherebyrds.
 *   Lead cost reduction initiative in sandbox accounts.
+*   Founding member of the social-committee.
 *   Shared a lot of dog photos.
