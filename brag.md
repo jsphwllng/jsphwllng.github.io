@@ -28,7 +28,6 @@ Design and documentation
 Company building
 ----------------
 
-*   Lead "programming for non programmers" initiative in order to improve non-tech members' understanding of APIs, databases, etc.
 *   Established "newbie forum" aimed at improving onboarding experience for new Wherebyrds.
 *   Lead cost reduction initiative in sandbox accounts.
 *   Founding member of the social-committee.
