@@ -76,13 +76,6 @@
          color: #516aec;
     }
      body {
-
-         max-width: 450px;
-         margin-top: 5rem;
-         margin-right: 2.5rem;
-         margin-bottom: 2rem;
-         margin-left: 2.5rem;
-
     }
      p {
 
@@ -106,15 +99,15 @@
     }
      h1 {
 
-         text-transform: uppercase;
-         text-transform: uppercase;
+         text-transform: capitalize;
+         text-transform: capitalize;
     }
      h2 {
 
-         text-transform: uppercase;
+         text-transform: capitalize;
     }
      h3 {
-         text-transform: uppercase;
+         text-transform: capitalize;
 
     }
 
