@@ -109,16 +109,16 @@
      h1 {
          font-weight: unset;
          font-size:12.5px;
-         text-transform: uppercase;
-         text-transform: uppercase;
+         text-transform: capitalize;
+         text-transform: capitalize;
     }
      h2 {
          font-weight: unset;
-         text-transform: uppercase;
+         text-transform: capitalize;
          font-size: 12.5px 
     }
      h3 {
-         text-transform: uppercase;
+         text-transform: capitalize;
          font-weight: unset;
          font-size: 12.5px;
     }
