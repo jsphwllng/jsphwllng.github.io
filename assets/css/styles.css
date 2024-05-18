@@ -2,7 +2,6 @@
      background: #f7f3f7;
      font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
      border: 0 !important;
-     font-size: 12.5px;
 }
  .pln {
      color: #1b181b;
@@ -77,16 +76,16 @@
          color: #516aec;
     }
      body {
-         font-family: menlo,monospace;
+
          max-width: 450px;
          margin-top: 5rem;
          margin-right: 2.5rem;
          margin-bottom: 2rem;
          margin-left: 2.5rem;
-         font-size: 12.5px;
+
     }
      p {
-         font-size: 12.5px;
+
     }
      code {
          display: block;
@@ -106,24 +105,20 @@
          list-style-type: disc
     }
      h1 {
-         font-weight: unset;
-         font-size:12.5px;
+
          text-transform: uppercase;
          text-transform: uppercase;
     }
      h2 {
-         font-weight: unset;
+
          text-transform: uppercase;
-         font-size: 12.5px 
     }
      h3 {
          text-transform: uppercase;
-         font-weight: unset;
-         font-size: 12.5px;
+
     }
 
      bold {
-         font-size: 12.5px;
     }
 
      img {
