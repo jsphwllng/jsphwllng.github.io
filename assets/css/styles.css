@@ -86,7 +86,6 @@
          font-size: 12.5px;
     }
      p {
-         color: #131313;
          font-size: 12.5px;
     }
      code {
@@ -131,7 +130,7 @@
          max-width: min(450px, 85vw) 
     }
      body {
-         background-color: #e8fdef 
+         background-color: #fff 
     }
 }
  
