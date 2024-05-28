@@ -4,17 +4,6 @@ title: AWS Private Certificate Authority
 description: "Using AWSPCA to issue certificates on EKS"
 order: 18
 ---
-  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
-<script>
-  $(document).ready(function () {
-    mermaid.initialize({
-      startOnLoad:true,
-      theme: "default",
-    });
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-  });
-</script>
- 
  ```mermaid
 graph TD
   
