@@ -15,7 +15,7 @@ order: 18
   });
 </script>
  
- ```
+ ```mermaid
 graph TD
   
 aws-privateca-->|issues on cluster|cert-manager
