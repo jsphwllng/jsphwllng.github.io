@@ -37,18 +37,20 @@ Open a terminal and type this, replacing the email with yours (the same one you 
 It will prompt for information. 
 Just press enter until it asks for a passphrase.  
 mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "TYPE_YOUR_EMAIL@HERE.com"
-``````
+```
 
 Copying and pasting on the final day:
 
       
-`Setup  
+```
+Setup  
 To setup a favicon, you can use Rails' favicon_link_tag helper.
 Best practice:      
     Resize your logo image in 32x32
     Upload it in a favicon generator, this will generate a favicon.ico file
     Add it to your app/assets/images folder
-    Place your favicon_link_tag in your layout's :  <%= favicon_link_tag %>`
+    Place your favicon_link_tag in your layout's :  <%= favicon_link_tag %>
+```
 
 One of my main criticism with the bootcamp format, and maybe this is actually a criticism of coding in general, is that we learned just enough to code. From the first day we were almost blindly pasting things into the console without much real understanding of what we were doing. Even at the last day as we were deploying our final product that we were just copying and pasting things into the terminal to satisfy some tests. Obviously this is how you have to do it in a bootcamp environment because I can't imagine explaining how a compiler works to a group of students who only learned how an if/else statements works less than 8 weeks prior. My main criticism, however, was the lack of education on how to continue learning. For 9 weeks the students at the bootcamp followed a very structured set of lectures, challenges and tests however now that I am two weeks outside the bootcamp system it has been an interesting transition into learning how to make my own projects, learn new concepts and overall maintain the pace that the bootcamp had set up. I understand that this is how the majority of education goes, for example when I was studying my bachelors I wasn't exactly prepared to self study in the legal world however I think with tech there is some exception. The tech world is largely self-taught and reading things like documentation is a legitimate skill that you need to develop. The bootcamp felt like its end goal was to get students through the bootcamp and not necessarily produce self-reliant coders.
 

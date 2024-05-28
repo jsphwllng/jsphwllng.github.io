@@ -6,7 +6,9 @@ order: 16
 ---
 
 <p>I was fortunate enough to run an <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4310607/#:~:text=Unlike%20traditional%20conferences%2C%20an%20unconference,even%20the%20time%20and%20venues.">unconference</a> at my company's recent offsite titled "programming for non-programmers". When deciding what tasks and challenges we could do as a group I settled on fizzbuzz. <a href="https://en.wikipedia.org/wiki/Fizz_buzz#:~:text=Fizz%20buzz%20is%20a%20group,with%20the%20word%20%22fizzbuzz%22.">Fizzbuzz</a> is a fairly simple programming challenge often presented to junior engineers. I will paste my solution below and then dive into why I think this is the perfect fit for non-programmers to get involved.</p>
-<code class="prettyprint">for fizzbuzz in range(51):
+
+```py
+for fizzbuzz in range(51):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
         print("fizzbuzz")
         continue
@@ -17,7 +19,8 @@ order: 16
         print("buzz")
         continue
     print(fizzbuzz)
-</code>
+```
+
 <p>The seemingly simple code covers a number of new subjects for the non-programmer:
   <ul>
     <li>strings</li>
@@ -32,7 +35,9 @@ The end result of being guided through all of this means that the non-programmer
 </p>
 <p>
   When discussing with the non-programmer it is important to first show the outcome of fizzbuzz:
-  <code class="prettyprint">1
+
+```
+1
 2
 fizz
 4
@@ -48,7 +53,8 @@ fizz
 14
 fizzbuzz
 ...
-  </code>
+```
+
 From here a discussion can be lead with "what is happening here?", "if we were to do the same with a deck of cards, what would we do?".
   </p>
 <p>

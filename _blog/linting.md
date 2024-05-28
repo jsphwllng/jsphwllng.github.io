@@ -8,7 +8,9 @@ order: 14
 <p>Managing infrastructure can be an overtly daunting task made no less confusing by having a big spaghetti codebase. In order to maintain a high standard of code you can implement a number of easy checks in your deployment pipeline.</p>
 
 <h2>terraform fmt</h2>
-<code class="">jobs:
+
+```yaml
+jobs:
   terraform_fmt:
     name: "Terraform fmt"
     runs-on: ubuntu-latest
@@ -25,12 +27,14 @@ order: 14
       - name: Terraform fmt
         id: fmt
         run: terraform fmt -check -recursive
-</code>
+```
 
 <a href="https://developer.hashicorp.com/terraform/cli/commands/fmt"> documentation</a>
 
 <h2>tflint</h2>
-<code class="">  terraform_lint:
+
+```yaml
+  terraform_lint:
     name: "Terraform Lint"
     needs: [terraform_fmt]
     runs-on: ubuntu-latest
@@ -45,10 +49,12 @@ order: 14
       - name: Run tflint
         run: |
           tflint --recursive --config "$(pwd)/.tflint.hcl"
-</code>
+```
+
 <a href="https://github.com/terraform-linters/tflint">documentation</a>
 <p>An example config for tflint using <span>.tflint.hcl</span></p>
-<code class="">
+
+```yaml
 plugin "aws" {
     enabled = true
     version = "0.26.0"
@@ -58,6 +64,7 @@ plugin "aws" {
 rule "terraform_naming_convention" {
   enabled = true
 }
+```
 <p></p>
 
 

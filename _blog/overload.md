@@ -21,7 +21,7 @@ Object-oriented programming is a programming paradigm based on the concept of "o
 
 The most basic class. A car is a class because there can be many types of cars. For example a camper van is a car but it behaves much differently than a sports car. Each share similar properties in that they have wheels, an engine, doors however things may differentiate them such as a roof, a radio or the speed. In this case we can make a car "template" which we will derive the rest of our cars from.
 
-```
+```java
 // Main.java 
   public static void main(String[] args) {
     Car c = new Car();
@@ -35,7 +35,7 @@ The most basic class. A car is a class because there can be many types of cars. 
 ```
 Here we define a new car called c and assign all of the values to the car. We could just as easily be making a formula 1 car with the class.
 
-```
+```java
   // Car.java
 public class Car {
     public int doors, wheels, speed;
@@ -53,7 +53,7 @@ public class Car {
 
 Classes can have methods like you would normally assign them in the main class. These methods can also interact with the variables that we passed into the object before. as we can see below
 
-```
+```java
 // Main.java 
   public class Main {
     public static void main(String[] args) {
@@ -71,7 +71,7 @@ Classes can have methods like you would normally assign them in the main class. 
             //c.model is now "example" } 
       }
 ```
-```
+```java
   // Bank.java 
 public class Bank {
     public String customerName, email,
@@ -100,7 +100,7 @@ public class Bank {
 
 Constructors are the first function to be called in a class. In this case we overload the Bank constructor so if a empty bank is given it loads itself with default values by using this(). This refers to the instance of a class so, for example, a new instance of Bank's This would only refer to itself and not the parent class.
 
-```
+```java
   // Animal.java
   public class Animal {
   
@@ -154,7 +154,7 @@ The super here means that you use the constructor from the animal class. But in 
 
 this() and super() super can often be confusing. When you use this() to refer to a constructor in the same class. this() needs to be the first statement inside a function or else you will get some errors. You can refer to the constructor of a parent class by using super(). For example the below code creates three different types of rectangles.
 
-```
+```java
   public class Rectangle {
     private int x, y, width, height;
     public Rectangle() {
@@ -181,7 +181,7 @@ this() and super() super can often be confusing. When you use this() to refer to
 
 However this is extremely inefficient and by using the this() function we are able to use multiple constructors.
 
-```
+```java
   public class Rectangle {
     private int x, y, width, height;
     public Rectangle() {
@@ -199,7 +199,7 @@ However this is extremely inefficient and by using the this() function we are ab
 
 This is known as constructor "chaining" as the third constructor will do all the work every time. This leads to fewer lines of [duplicated code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-```
+```java
   // Shape.java 
   public class Shape {
       private int x, y;
