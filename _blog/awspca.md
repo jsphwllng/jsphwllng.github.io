@@ -4,8 +4,13 @@ title: AWS Private Certificate Authority
 description: "Using AWSPCA to issue certificates on EKS"
 order: 18
 ---
+
+AWS Private Certificate Authority (AWS Private CA) is a managed service that provides users with the ability to create and manage private certificates for their internal applications and services. AWSPCA allows the issuance of private TLS/SSL certificates for securing communication between Kubernetes components, such as pods, services, and applications. 
+
+This service helps automate the lifecycle of certificates, ensuring timely renewal and revocation, thereby reducing the risk of security breaches due to expired or compromised certificates. 
+
+
 <div class="mermaid" markdown="0">
-%%{init: {'theme':'neutral'}}%%
 graph TD
   
 aws-privateca-->|issues on cluster|cert-manager
