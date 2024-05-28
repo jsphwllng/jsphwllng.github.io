@@ -4,7 +4,7 @@ title: AWS Private Certificate Authority
 description: "Using AWSPCA to issue certificates on EKS"
 order: 18
 ---
- ```mermaid
+<div class="mermaid" markdown="0">
 graph TD
   
 aws-privateca-->|issues on cluster|cert-manager
@@ -38,4 +38,4 @@ application-ingress<-->|accepts requests|example-application-lb
 root-authority-->|grants|subordinate-authority
 subordinate-authority-->|issues certificates using service role|aws-privateca
 example-application-lb-->|DNS used in certificate request|cert-manager
- ```
+</div>
