@@ -5,6 +5,7 @@ description: "Using AWSPCA to issue certificates on EKS"
 order: 18
 ---
 <div class="mermaid" markdown="0">
+%%{init: {'theme':'neutral'}}%%
 graph TD
   
 aws-privateca-->|issues on cluster|cert-manager
