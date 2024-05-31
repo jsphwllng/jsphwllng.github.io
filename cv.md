@@ -3,6 +3,11 @@ title: CV
 layout: default
 ---
 
+Summary
+----------------
+
+Berlin based software engineer with experience using AWS, K8S, Golang, Jenkins, Datadog, Typescript, Terraform, Linux and more. I love to teach tech and break down barriers for new engineers.
+
 Technical Skills
 ----------------
 
@@ -14,7 +19,7 @@ Selected Work Experience
 
 ### Software Engineer at Whereby (June 2023 - Present)
 
-Working within platform team to overhaul infrastructure, introduced numerous checks and validations to deployment process to ensure a consistent, DRY and high quality development environment. Experience with incident management, on-call and handling customer related issues.
+Working within platform team to overhaul infrastructure, introduced numerous workflows to deployment process to ensure a consistent, DRY and high quality development environment. Extensive experience with incident management, on-call, cost-saving, infrastructure design and handling customer related issues. Lead DEI initiatives. 
 
 ### Platform Engineer at Scout24 (December 2021 - June 2023)
 
