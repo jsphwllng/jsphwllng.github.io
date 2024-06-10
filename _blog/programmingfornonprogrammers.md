@@ -54,7 +54,7 @@ fizz
 fizzbuzz
 ...
 </code>
-
+<br>
 From here a discussion can be lead with "what is happening here?", "if we were to do the same with a deck of cards, what would we do?".
   </p>
 <p>
