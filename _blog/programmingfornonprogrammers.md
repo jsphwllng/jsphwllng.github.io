@@ -36,7 +36,7 @@ The end result of being guided through all of this means that the non-programmer
 <p>
   When discussing with the non-programmer it is important to first show the outcome of fizzbuzz:
 
-```
+<code>
 1
 2
 fizz
@@ -53,7 +53,7 @@ fizz
 14
 fizzbuzz
 ...
-```
+</code>
 
 From here a discussion can be lead with "what is happening here?", "if we were to do the same with a deck of cards, what would we do?".
   </p>
