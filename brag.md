@@ -28,3 +28,4 @@ Company building
 *   Lead the new tech-huddles aimed at getting more engineers involved in each other's work.
 *   Founding member of the social-committee.
 *   Assisted a number of users in discord.
+*   Maintained high quality and consistent output of dog photos.
