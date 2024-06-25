@@ -36,3 +36,7 @@ Lead a 6 cluster k8s upgrade with no experienced downtime. Ambassador the LGBTQI
 Experience developing API endpoints and managing databases. A focus on authentication, working in finance related services and data processing. 
 
 Working in both TypeScript and Golang using an AWS, k8s, PSQL and CI/CD environment. Lead multiple team events such as cultural exchanges and book clubs.
+
+### Software Engineering Teacher at Le Wagon (September 2020 - January 2021)
+
+Assisted in teaching during the Fullstack Engineering course including coding basics, frontend, backend, SQL and project management.
