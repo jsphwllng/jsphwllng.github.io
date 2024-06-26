@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'unicorns in tech 2022 talk: how to enter tech and find your first "home" 🦄'
+title: 'unicorns in tech 2022 talk: how to enter tech and find your first "home"'
 description: "The slides of a talk that I gave during the Unicorns In Tech 2022 Berlin Conference."
 order: 6
 ---
