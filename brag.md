@@ -10,7 +10,8 @@ Achievements
 *   Assisted Product team on debugging various services such as recording, static-pages.
 *   Implemented alerting on critical lambdas on the new infra.
 *   Lead a number of incident retros.
-*   Implemented cost saving measure for AWS that increased savings to $18,084 per year
+*   Implemented cost saving measure for AWS that increased yearly savings to $18,084 on AMIs and $5352 on EKS.
+*   Cross team collaboration to implement dial-in infrastructure needed.
 
 Design and documentation
 ------------------------
@@ -24,9 +25,10 @@ Design and documentation
 Company building
 ----------------
 
-*   Began research of DEI initiatives within whereby.
+*   Began research of DEI initiatives.
 *   Took part in rethinking of hiring strategy and got involved in interviews.
 *   Lead the new tech-huddles aimed at getting more engineers involved in each other's work.
 *   Founding member of the social-committee.
 *   Assisted a number of users in discord.
+*   Encouraged cross-engineering team communication with new show & tell format.
 *   Maintained high quality and consistent output of dog photos.
