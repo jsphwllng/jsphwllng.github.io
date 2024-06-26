@@ -34,8 +34,9 @@ Company building
 ----------------
 
 *   Began research of DEI initiatives.
-*   Took part in rethinking of hiring strategy and got involved in interviews.
+*   Took part in rethinking of hiring strategy, involving external experts and got involved in interviews.
 *   Lead the new tech-huddles aimed at getting more engineers involved in each other's work.
 *   Founding member of the social-committee.
 *   Assisted a number of users in discord.
+*   Lead initial discussion on redesigning ETHOS and quarterly DEI check-in.
 *   Maintained high quality and consistent output of dog photos.
