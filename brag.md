@@ -10,6 +10,7 @@ Achievements
 *   Assisted Product team on debugging various services such as recording, static-pages.
 *   Implemented alerting on critical lambdas on the new infra.
 *   Lead a number of incident retros.
+*   Implemented cost saving measure for AWS that increased savings to $18,084 per year
 
 Design and documentation
 ------------------------
