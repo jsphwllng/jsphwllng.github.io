@@ -8,7 +8,7 @@ Achievements
 
 *   Implemented new and replicable deployment pattern for services on EKS with SSL/domains.
 *   Set up alerting on critical lambdas on the new infra.
-*   Implemented cost saving measure for AWS that increased yearly savings to $18,084 on AMIs and $5352 on EKS.
+*   Implemented cost saving measure for AWS that increased yearly savings to $18,084 on AMIs, a 341% cost reduction on sandbox and $5352 on EKS.
 *   Fixed ipv6 error on recording service.
 *   Designed and implemented automatic data loading from posthog to redshift.
 *   Significantly reduced webfrontend GoCD periodic test errors meaning on-call engineers can sleep for longer.
