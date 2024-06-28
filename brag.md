@@ -6,37 +6,38 @@ layout: default
 Achievements
 ------------
 
-*   Implemented new and replicable deployment pattern for services on EKS with SSL/domains.
-*   Set up alerting on critical lambdas on the new infra.
-*   Implemented cost saving measure for AWS that increased yearly savings to $18,084 on AMIs, and a cost reduction on sandbox at over 300% on EKS.
-*   Fixed ipv6 error on recording service.
-*   Designed and implemented automatic data loading from posthog to redshift.
-*   Significantly reduced webfrontend GoCD periodic test errors meaning on-call engineers can sleep for longer.
+*   Developed a new, replicable deployment pattern for services on EKS, incorporating SSL and domain configurations.
+*   Established critical alerting mechanisms for Lambda functions on the new infrastructure.
+*   Implemented AWS cost-saving measures, achieving annual savings of $18,084 on AMIs and over 300% cost reduction in the EKS sandbox environment.
+*   Resolved IPv6 errors in the recording service.
+*   Designed and implemented automated data loading from PostHog to Redshift.
+*   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
 
-Design and documentation
+Design and Documentation
 ------------------------
 
-*   Extended platform documentation, contribution guides, etc.
-*   Designed DNS naming conventions along with documentation.
-*   Designed testing plan on blue/green EKS.
-*   Updated Salesforce DMARC configuration and documented process.
-*   Documented restoration testing cross-account and cross-region.
+*   Expanded platform documentation, including contribution guides.
+*   Developed and documented DNS naming conventions.
+*   Designed a testing plan for blue/green EKS deployments.
+*   Updated and documented the Salesforce DMARC configuration process.
+*   Documented cross-account and cross-region restoration testing procedures.
 
-Collaboration & mentorship
---------------------------
-*   Assisted Product team on debugging various services such as recording, GoCD pipelines, cert-renewal.
-*   Lead a number of incident retros.
-*   Cross team collaboration to implement dial-in infrastructure needed.
-*   Encouraged cross-engineering team communication with new show & tell format.
-*   Volunteer work at REDI school and facilitated relationship with company.
+Collaboration and Mentorship
+----------------------------
 
-Company building
+*   Assisted the Product team in debugging various services, including recording, GoCD pipelines, and certificate renewal.
+*   Led multiple incident retrospectives.
+*   Collaborated with cross-functional teams to implement essential dial-in infrastructure.
+*   Fostered cross-engineering team communication through a new show-and-tell format.
+*   Volunteered at REDI School and facilitated the relationship between the organization and the company.
+
+Company Building
 ----------------
 
-*   Began research of DEI initiatives.
-*   Took part in rethinking of hiring strategy, involving external experts and got involved in interviews.
-*   Lead the new tech-huddles aimed at getting more engineers involved in each other's work.
-*   Founding member of the social-committee.
-*   Assisted a number of users in discord.
-*   Lead initial discussion on redesigning ETHOS and quarterly DEI check-in.
-*   Maintained high quality and consistent output of dog photos.
+*   Initiated research on diversity, equity, and inclusion (DEI) initiatives.
+*   Contributed to the reevaluation of hiring strategies, involving external experts and participating in interviews.
+*   Led new tech huddles to enhance inter-team collaboration among engineers.
+*   Co-founded the social committee.
+*   Assisted numerous users on Discord.
+*   Led initial discussions on redesigning ETHOS and conducted quarterly DEI check-ins.
+*   Maintained a high standard of quality and consistency in sharing dog photos.
