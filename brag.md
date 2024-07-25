@@ -35,7 +35,6 @@ Company Building
 ----------------
 
 *   Initiated research on diversity, equity, and inclusion (DEI) initiatives.
-*   Contributed to the reevaluation of hiring strategies, involving external experts and participating in interviews.
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
 *   Co-founded the social committee.
 *   Assisted numerous users on Discord.
