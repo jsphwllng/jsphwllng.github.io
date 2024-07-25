@@ -13,8 +13,8 @@ I love to teach tech and break down barriers for new engineers.
 Technical Skills
 ----------------
 
-*   typescript, golang, python, bash, ruby
-*   AWS, terraform, k8s, datadog, prometheus
+typescript, golang, python, bash, ruby
+AWS, terraform, k8s, datadog, prometheus
 
 Selected Work Experience
 ------------------------
