@@ -8,7 +8,7 @@ Achievements
 
 *   Developed a new, replicable deployment pattern for services on EKS, incorporating SSL and domain configurations.
 *   Established critical alerting mechanisms for Lambda functions on the new infrastructure.
-*   Investigated and implemented AWS cost-saving measures, achieving annual savings of $57,567 on AMIs/ECRs.
+*   Investigated and implemented AWS cost-saving measures, achieving annual savings of $57,567.
 *   Reduced GitHub Action minutes in the platform repository by over 50%.
 *   Resolved IPv6 errors in the recording service.
 *   Designed and implemented automated data loading from PostHog to Redshift.
