@@ -60,15 +60,15 @@ def cleanup_amis():
                 print(f"Retaining {image_id} as it is currently running")
                 continue
 
-            app_revision_tag_value = next((tag['Value'] for tag in tags if tag['Key'] == 'AppRevision'), None)
+            tag_value = next((tag['Value'] for tag in tags if tag['Key'] == 'TagKey'), None)
 
-            if app_revision_tag_value not in TAGS_TO_RETAIN:
+            if tag_value not in TAGS_TO_RETAIN:
                 image_cost_saved = sum(get_snapshot_size(ec2_client, sid) * COST_PER_GB_PER_MONTH for sid in snapshot_ids)
 
                 total_cost_saved_monthly += image_cost_saved
                 total_deleted_images += 1
 
-                print(f"Deleting AMI: {image_id}, Name: {name}, CreationDate: {image['CreationDate']}, AppRevision tag: {app_revision_tag_value}, Cost Saved: ${image_cost_saved:.2f}")
+                print(f"Deleting AMI: {image_id}, Name: {name}, CreationDate: {image['CreationDate']}, TagKey tag: {tag_value}, Cost Saved: ${image_cost_saved:.2f}")
                 
                 ec2_client.deregister_image(ImageId=image_id)
                 for snapshot_id in snapshot_ids:
@@ -77,7 +77,7 @@ def cleanup_amis():
 
             else:
                 total_retained_images_due_to_tags += 1
-                print(f"Retaining AMI: {image_id}, Name: {name}, CreationDate: {image['CreationDate']} due to AppRevision tag: {app_revision_tag_value}")
+                print(f"Retaining AMI: {image_id}, Name: {name}, CreationDate: {image['CreationDate']} due to TagKey tag: {tag_value}")
 
     total_cost_saved_yearly = total_cost_saved_monthly * 12
     print(f"Total cost saved per month: ${total_cost_saved_monthly:.2f}")
