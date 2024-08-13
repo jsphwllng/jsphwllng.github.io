@@ -26,7 +26,7 @@ Design and Documentation
 Collaboration and Mentorship
 ----------------------------
 
-*   Assisted the Product team in debugging various services, including recording, GoCD pipelines, and certificate renewal.
+*   Assisted the product engineers in debugging various services, including recording, GoCD pipelines, deployment configurations, and certificate renewal.
 *   Led multiple incident retrospectives.
 *   Collaborated with cross-functional teams to implement essential dial-in infrastructure.
 *   Fostered cross-engineering team communication through a new show-and-tell format.
