@@ -30,9 +30,7 @@ Collaboration and Mentorship
 *   Led multiple incident retrospectives.
 *   Collaborated with cross-functional teams to implement essential dial-in infrastructure.
 *   Fostered cross-engineering team communication through a new show-and-tell format.
-{% comment %}
-*   Volunteered at REDI School and facilitated the relationship between the organization and the company.
-{% endcomment %}
+*   Worked with third party company to obtain PCI-SSC compliance.
 
 Company Building
 ----------------
