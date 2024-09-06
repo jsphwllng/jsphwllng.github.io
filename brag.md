@@ -30,7 +30,6 @@ Collaboration and Mentorship
 *   Led multiple incident retrospectives.
 *   Collaborated with cross-functional teams to implement essential dial-in infrastructure.
 *   Fostered cross-engineering team communication through a new show-and-tell format.
-*   Worked with third party company to obtain PCI-SSC compliance.
 
 Company Building
 ----------------
