@@ -40,3 +40,4 @@ Company Building
 *   Assisted numerous users on Discord.
 *   Led initial discussions on redesigning ETHOS and conducted quarterly DEI check-ins.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
+*   Volunteered at REDI School, organised and facilitated mock interviews to help aspiring engineers gain real-world experience.  
