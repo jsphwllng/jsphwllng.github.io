@@ -50,3 +50,14 @@ Led multiple team events, including cultural exchanges and book clubs.
 ### Software Engineering Teacher at Le Wagon (September 2020 - January 2021)
 
 Assisted in teaching the Fullstack Engineering course, covering coding basics, frontend, backend, SQL, and project management.
+
+Volunteering
+--------------
+
+### Teacher at REDI School (September 2024 - Present)
+
+ReDI School of Digital Integration is a non-profit tech school providing migrants and marginalized locals free and equitable access to digital education.
+
+As a volunteer Python instructor, I teach in both the Python Fundamentals and Data Analytics tracks, helping students build essential coding skills and knowledge. 
+
+Coordinate with industry professionals to conduct mock interviews, equipping students with the confidence and preparation they need to excel in real-world job interviews.
