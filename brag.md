@@ -13,11 +13,12 @@ Achievements
 *   Resolved IPv6 errors in the recording service.
 *   Designed and implemented automated data loading from PostHog to Redshift.
 *   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
+*   Developed a solution for monitoring Deepgram concurrent connections.
 
 Design and Documentation
 ------------------------
 
-*   Expanded platform documentation, including contribution guides.
+*   Expanded platform documentation, including contribution guides, conventions and workflows.
 *   Developed and documented DNS naming conventions.
 *   Designed a testing plan for blue/green EKS deployments.
 *   Updated and documented the Salesforce DMARC configuration process.
@@ -27,7 +28,7 @@ Collaboration and Mentorship
 ----------------------------
 
 *   Assisted the product engineers in debugging various services, including recording, GoCD pipelines, managing out of hour deployments, and certificate renewal.
-*   Led multiple incident retrospectives.
+*   Led multiple incident retrospectives and redesigned the incident retro process.
 *   Collaborated with cross-functional teams to implement essential dial-in infrastructure.
 *   Fostered cross-engineering team communication through a new show-and-tell format.
 

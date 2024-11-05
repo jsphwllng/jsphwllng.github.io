@@ -14,7 +14,7 @@ Technical Skills
 ----------------
 
 typescript, golang, python, bash, ruby
-AWS, terraform, k8s, datadog, prometheus
+AWS, terraform, k8s, dagster
 
 Selected Work Experience
 ------------------------
@@ -23,7 +23,7 @@ Selected Work Experience
 
 Overhauled infrastructure within the platform team, introducing numerous workflows to the deployment process to ensure a consistent, DRY, and high-quality development environment.
 
-Researched and implemented cost-saving measures on AWS, resulting in $60,000  annual savings.
+Researched and implemented cost-saving measures on AWS, resulting in $60,000 annual savings.
 
 Extensive experience with incident management, on-call duties, cost-saving initiatives, infrastructure design, and handling customer-related issues.
 
