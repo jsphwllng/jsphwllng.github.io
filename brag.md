@@ -13,7 +13,6 @@ Achievements
 *   Resolved IPv6 errors in the recording service.
 *   Designed and implemented automated data loading from PostHog to Redshift.
 *   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
-*   Developed a solution for monitoring Deepgram concurrent connections.
 
 Design and Documentation
 ------------------------
@@ -39,7 +38,6 @@ Company Building
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
 *   Co-founded the social committee.
 *   Assisted numerous users on Discord.
-*   Led initial discussions on redesigning ETHOS and conducted quarterly DEI check-ins.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
 *   Volunteered at REDI School, organised and facilitated mock interviews to help aspiring engineers gain real-world experience.  
 *   Joined the Wherebud program and assisted a newjoiner in getting assimilated into the company.
