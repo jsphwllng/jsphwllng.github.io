@@ -1,125 +1,160 @@
 .prettyprint {
-     background: #f7f3f7;
-     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
-     border: 0 !important;
+    background: #f7f3f7;
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+    border: 0 !important;
 }
- .pln {
-     color: #1b181b;
+
+.pln {
+    color: #1b181b;
 }
+
 /* Specify class=linenums on a pre to get line numbering */
- ol.linenums {
-     margin-top: 0;
-     margin-bottom: 0;
-     color: #5a7b8c;
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5a7b8c;
 }
- li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
     /* padding-left: 1em;
      */
-     background-color: #f7f3f7;
-     list-style-type: decimal;
+    background-color: #f7f3f7;
+    list-style-type: decimal;
 }
- @media screen {
-    /* string content */
-     .str {
-         color: #918b3b;
-    }
-    /* keyword */
-     .kwd {
-         color: #7b59c0;
-    }
-    /* comment */
-     .com {
-         color: #5a7b8c;
-    }
-    /* type name */
-     .typ {
-         color: #516aec;
-    }
-    /* literal value */
-     .lit {
-         color: #a65926;
-    }
-    /* punctuation */
-     .pun {
-         color: #1b181b;
-    }
-    /* lisp open bracket */
-     .opn {
-         color: #1b181b;
-    }
-    /* lisp close bracket */
-     .clo {
-         color: #1b181b;
-    }
-    /* markup tag name */
-     .tag {
-         color: #ca402b;
-    }
-    /* markup attribute name */
-     .atn {
-         color: #a65926;
-    }
-    /* markup attribute value */
-     .atv {
-         color: #159393;
-    }
-    /* declaration */
-     .dec {
-         color: #a65926;
-    }
-    /* variable name */
-     .var {
-         color: #ca402b;
-    }
-    /* function name */
-     .fun {
-         color: #516aec;
-    }
-     body {
-    }
-     p {
 
+@media screen {
+
+    /* string content */
+    .str {
+        color: #918b3b;
     }
-     code {
-         display: block;
-         white-space: pre-wrap;
+
+    /* keyword */
+    .kwd {
+        color: #7b59c0;
+    }
+
+    /* comment */
+    .com {
+        color: #5a7b8c;
+    }
+
+    /* type name */
+    .typ {
+        color: #516aec;
+    }
+
+    /* literal value */
+    .lit {
+        color: #a65926;
+    }
+
+    /* punctuation */
+    .pun {
+        color: #1b181b;
+    }
+
+    /* lisp open bracket */
+    .opn {
+        color: #1b181b;
+    }
+
+    /* lisp close bracket */
+    .clo {
+        color: #1b181b;
+    }
+
+    /* markup tag name */
+    .tag {
+        color: #ca402b;
+    }
+
+    /* markup attribute name */
+    .atn {
+        color: #a65926;
+    }
+
+    /* markup attribute value */
+    .atv {
+        color: #159393;
+    }
+
+    /* declaration */
+    .dec {
+        color: #a65926;
+    }
+
+    /* variable name */
+    .var {
+        color: #ca402b;
+    }
+
+    /* function name */
+    .fun {
+        color: #516aec;
+    }
+
+    body {}
+
+    p {}
+
+    code {
+        display: block;
+        white-space: pre-wrap;
         /* background-color: ghostwhite;
          */
         /* font-size: 12px;
          */
     }
-     a {
-         color: blue
-    }
-     ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3px;
-         list-style-type: disc
-    }
-     h1 {
-         text-transform: capitalize;
-         text-transform: capitalize;
-    }
-     h2 {
 
-         text-transform: capitalize;
-    }
-     h3 {
-         text-transform: capitalize;
-
+    a:hover,
+    a:visited {
+        color: #000;
     }
 
-     bold {
+    a {
+        color: black
     }
 
-     img {
-         max-width: min(450px, 85vw) 
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        list-style-type: disc
     }
-     body {
-         background-color: #fff 
+
+    h1 {
+        font-weight: normal;
+        text-decoration: underline;
+    }
+
+    h2 {
+        font-weight: normal;
+        text-decoration: underline dotted;
+    }
+
+    h3 {
+        font-weight: normal;
+        text-decoration: underline;
+
+    }
+
+    bold {}
+
+    img {
+        max-width: min(450px, 85vw)
+    }
+
+    body {
+        background-color: rgb(254, 249, 231);
     }
 }
- 
- 
-

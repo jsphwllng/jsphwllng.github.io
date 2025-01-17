@@ -1,22 +1,15 @@
 ---
-title: CV
+title: cv
 layout: default
 ---
 
-## Summary
+### Joseph Welling
 
 Berlin based software engineer with experience using AWS, K8S, Golang, Jenkins, Datadog, Typescript, Terraform, Linux and more. 
 
 I love to teach tech and break down barriers for new engineers.
 
-## Technical Skills
-
-typescript, golang, python, bash, ruby
-AWS, terraform, k8s, dagster
-
-## Selected Work Experience
-
-#### Software Engineer at Whereby (June 2023 - Present)
+<ins>Software Engineer at Whereby (June 2023 - Present)</ins>
 
 Overhauled infrastructure within the platform team, introducing numerous workflows to the deployment process to ensure a consistent, DRY, and high-quality development environment.
 
@@ -26,7 +19,7 @@ Extensive experience with incident management, on-call duties, cost-saving initi
 
 Led DEI initiatives.
 
-#### Platform Engineer at Scout24 (December 2021 - June 2023)
+Platform Engineer at Scout24 (December 2021 - June 2023)
 
 Developed robust systems for deploying applications within the Cloud Infrastructure team.
 
@@ -36,7 +29,7 @@ Successfully led a six-cluster Kubernetes upgrade with no downtime.
 
 Served as an ambassador for the LGBTQIA+ Community Group.
 
-#### Backend Engineer at Alteos (January 2021 - December 2021)
+<ins>Backend Engineer at Alteos (January 2021 - December 2021)</ins>
 
 Developed API endpoints and managed databases, focusing on authentication, finance-related services, and data processing.
 
@@ -44,13 +37,7 @@ Worked with TypeScript and Golang in an AWS, Kubernetes, PostgreSQL (PSQL), and 
 
 Led multiple team events, including cultural exchanges and book clubs.
 
-#### Software Engineering Teacher at Le Wagon (September 2020 - January 2021)
-
-Assisted in teaching the Fullstack Engineering course, covering coding basics, frontend, backend, SQL, and project management.
-
-## Volunteering
-
-#### Teacher at REDI School (September 2024 - Present)
+<ins>Volunteer Teacher at REDI School (September 2024 - Present)</ins>
 
 ReDI School of Digital Integration is a non-profit tech school providing migrants and marginalized locals free and equitable access to digital education.
 

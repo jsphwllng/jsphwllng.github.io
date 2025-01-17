@@ -44,8 +44,15 @@
       <link rel="shortcut icon" type="image/png" href="../favicon.ico" />
 
       <body>
-        <h1>{{ page.title | capitalize}}</h1>
+        {% if page.title != "cv" %}
+        <h3>{{ page.title }}</h3>
+        {% endif %}
+        {% if page.collection == "blog" %}
+        <div style="width:70%">
+          {% endif %}
         {{ content }} {% include footer.html %}
+        </div>
+
       </body>
     </html>
   </head>

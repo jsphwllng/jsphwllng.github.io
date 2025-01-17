@@ -21,8 +21,8 @@
 title: jsphwllng
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "jsphwllng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: jsphwllng.github.io
-domain: jsphwllng.github.io
+#baseurl: jsphwllng.github.io
+#domain: jsphwllng.github.io
 # Build settings
 theme: minima
 plugins:
@@ -45,7 +45,9 @@ permalink: /:title.html
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+include:
+  - _static
+  - assets
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
