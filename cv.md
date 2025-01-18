@@ -19,7 +19,7 @@ Extensive experience with incident management, on-call duties, cost-saving initi
 
 Led DEI initiatives.
 
-Platform Engineer at Scout24 (December 2021 - June 2023)
+<ins>Platform Engineer at Scout24 (December 2021 - June 2023)</ins>
 
 Developed robust systems for deploying applications within the Cloud Infrastructure team.
 
