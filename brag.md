@@ -12,6 +12,7 @@ Achievements
 *   Resolved IPv6 errors in the recording service.
 *   Designed and implemented automated data loading from PostHog to Redshift.
 *   Designed and deployed userdb and billingdb RDS cluster to staging environment.
+*   Acted as the point of contact for external provider relating to PCI SSC certification.
 *   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
 
 Design and Documentation
@@ -31,9 +32,9 @@ Collaboration and Mentorship
 
 Company Building
 
-*   Initiated research on diversity, equity, and inclusion (DEI) initiatives.
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
 *   Co-founded the social committee.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
 *   Volunteered at REDI School, organised and began facilitated mock interviews to help aspiring engineers gain real-world experience.  
 *   Joined the Wherebud program and assisted a newjoiner in getting assimilated into the company.
+*   Onboarded new users to grafana and updadated documentation to enable further collaboration.
