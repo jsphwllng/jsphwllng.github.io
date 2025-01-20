@@ -4,7 +4,6 @@ layout: default
 ---
 
 Achievements
-------------
 
 *   Developed a new, replicable deployment pattern for services on EKS, incorporating SSL and domain configurations.
 *   Established critical alerting mechanisms for Lambda functions on the new infrastructure.
@@ -16,7 +15,6 @@ Achievements
 *   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
 
 Design and Documentation
-------------------------
 
 *   Expanded platform documentation, including contribution guides, conventions and workflows.
 *   Developed and documented DNS naming conventions.
@@ -25,7 +23,6 @@ Design and Documentation
 *   Documented cross-account and cross-region restoration testing procedures.
 
 Collaboration and Mentorship
-----------------------------
 
 *   Assisted the product engineers in debugging various services, including recording, GoCD pipelines, managing out of hour deployments, and certificate renewal.
 *   Led multiple incident retrospectives and redesigned the incident retro process.
@@ -33,7 +30,6 @@ Collaboration and Mentorship
 *   Fostered cross-engineering team communication through a new show-and-tell format.
 
 Company Building
-----------------
 
 *   Initiated research on diversity, equity, and inclusion (DEI) initiatives.
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
