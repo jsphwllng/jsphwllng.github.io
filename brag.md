@@ -12,6 +12,7 @@ Achievements
 *   Reduced GitHub Action minutes in the platform repository by 50%.
 *   Resolved IPv6 errors in the recording service.
 *   Designed and implemented automated data loading from PostHog to Redshift.
+*   Designed and deployed userdb and billingdb RDS cluster to staging environment.
 *   Significantly reduced periodic test errors in the web frontend GoCD, enhancing on-call engineer productivity.
 
 Design and Documentation
@@ -39,5 +40,5 @@ Company Building
 *   Co-founded the social committee.
 *   Assisted numerous users on Discord.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
-*   Volunteered at REDI School, organised and facilitated mock interviews to help aspiring engineers gain real-world experience.  
+*   Volunteered at REDI School, organised and began facilitated mock interviews to help aspiring engineers gain real-world experience.  
 *   Joined the Wherebud program and assisted a newjoiner in getting assimilated into the company.
