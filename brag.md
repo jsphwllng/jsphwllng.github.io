@@ -34,7 +34,6 @@ Company Building
 *   Initiated research on diversity, equity, and inclusion (DEI) initiatives.
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
 *   Co-founded the social committee.
-*   Assisted numerous users on Discord.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
 *   Volunteered at REDI School, organised and began facilitated mock interviews to help aspiring engineers gain real-world experience.  
 *   Joined the Wherebud program and assisted a newjoiner in getting assimilated into the company.
