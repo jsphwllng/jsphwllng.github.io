@@ -33,8 +33,8 @@ Collaboration and Mentorship
 Company Building
 
 *   Led new tech huddles to enhance inter-team collaboration among engineers.
-*   Co-founded the social committee.
+*   Co-founded the social committee and lead efforts to redesign community volunteer hours.
 *   Maintained a high standard of quality and consistency in sharing dog photos.
 *   Volunteered at REDI School, organised and began facilitated mock interviews to help aspiring engineers gain real-world experience.  
 *   Joined the Wherebud program and assisted a newjoiner in getting assimilated into the company.
-*   Onboarded new users to grafana and updadated documentation to enable further collaboration.
+*   Onboarded multiple new users to grafana and updated documentation to enable further collaboration.
