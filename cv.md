@@ -3,20 +3,20 @@ title: CV
 layout: default
 ---
 
-Summary
+## Summary
 ----------------
 
 Berlin based software engineer with experience using AWS, K8S, Golang, Jenkins, Datadog, Typescript, Terraform, Linux and more. 
 
 I love to teach tech and break down barriers for new engineers.
 
-Technical Skills
+## Technical Skills
 ----------------
 
 typescript, golang, python, bash, ruby
 AWS, terraform, k8s, dagster
 
-Selected Work Experience
+## Selected Work Experience
 ------------------------
 
 ### Software Engineer at Whereby (June 2023 - Present)
@@ -51,7 +51,7 @@ Led multiple team events, including cultural exchanges and book clubs.
 
 Assisted in teaching the Fullstack Engineering course, covering coding basics, frontend, backend, SQL, and project management.
 
-Volunteering
+## Volunteering
 --------------
 
 ### Teacher at REDI School (September 2024 - Present)
@@ -59,5 +59,7 @@ Volunteering
 ReDI School of Digital Integration is a non-profit tech school providing migrants and marginalized locals free and equitable access to digital education.
 
 As a volunteer Python instructor, I teach in both the Python Fundamentals and Data Analytics tracks, helping students build essential coding skills and knowledge. 
+
+Assisted in the development and progress of students on a 1:1 basis, nurturing growth and helping develop career opportunities. 
 
 Coordinate with industry professionals to conduct mock interviews, equipping students with the confidence and preparation they need to excel in real-world job interviews.
