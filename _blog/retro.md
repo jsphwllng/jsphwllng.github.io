@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How I learned self advocacy through teaching students how to write python.
+title: How I learned self advocacy through teaching students how to write python
 order: 21
 description: A long ramble about boasting, a reflection on my career to date, and teaching students how to write python.
 ---
