@@ -10,15 +10,15 @@ I am an okay teacher. I know the material of my course well because I myself had
 
 ## A quick retrospective on my career to date
 
-I have been a software engineer for 5 years now. I started off doing a bootcamp that wasn't especially useful or interesting before joining companies of different sizes, ranging from 1,000 employees to 40 employees. I enjoy coding.
-
 Before software engineering, I worked in an administrative government role that had limited growth opportunities and a high bar for entry but a low skill ceiling — after a year or two there I had already mastered all that I was allowed to do. I didn't enjoy this admin role.
+
+I have been a software engineer for 5 years now. I started off doing a bootcamp that wasn't especially useful or interesting before joining companies of different sizes, ranging from 1,000 employees to 40 employees. The barrier to entry for coding is quite high but the skill ceiling is also infinitely high. I am by far not the best at what I do and I have a lot to learn. I enjoy coding.
 
 One thing that I can say I have learned from both of these careers is that I want to be good at my job, and I want recognition that I am good at my job. I have always had a hunger to be as knowledgeable, clever, and efficient in my roles as possible. What I have learned recently is that I also need recognition that I am doing well in these roles. While I do not have my own product or company, there aren't any metrics for success in my role besides an increase in title or salary. While I don't think this is necessarily a problem (I don't think anyone can truly say they don't care about their title or salary), I have had to learn how to advocate for myself in a way that I haven't done before.
 
 Being able to advocate for myself and show off my achievements is something that I have had to learn how to do. Outside of having outward-facing projects and customer-impacted work, it can be quite difficult to outline where your successes have been. Software engineering doesn't have a perfect set of metrics that you can rely on (counting commits or pull requests reveals nothing), so you have to investigate and calculate your own metrics of success. As I work in infrastructure and engineering enablement, my focus had to be there. Things like developer efficiency, security, reliability, and cost savings are what define success for my role. Some metrics can be hard to define (no one should notice security, and developer efficiency can be hard to measure), so doing your own investigations is crucial to measuring your impact.
 
-## Self advocating
+## Self advocating and bragging
 
 For example, without being too specific, a lot of cost-saving work was being done at a startup I worked at. As several people were working on this, the only metric that we would see was a total reduction in spend. In order to evaluate my contribution to this, part of my effort in the cleanup was to measure the quantity of things that had been removed along with their individual costs. When it came time to evaluate my impact on the project, I was able to produce evidence of my own cost-saving effort.
 
