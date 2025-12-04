@@ -5,7 +5,7 @@ layout: default
 
 ## Summary
 
-Berlin-based Software Engineer with strong experience in AWS, Kubernetes, Golang, Terraform, CI/CD, observability, and scalable cloud infrastructure. 
+Berlin-based Software Engineer with strong experience in AWS, Kubernetes, Golang, Terraform, CI/CD, observability, and scalable cloud infrastructure.
 I specialise in building reliable platforms, improving developer experience, and leading cost-optimisation and security initiatives. 
 I am passionate about mentorship and breaking down complex technical concepts for new engineers.
 
