@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joseph Welling
+title: Joseph Welling 🦜
 description: Joseph Welling's Personal Website
 order: 1
 ---
