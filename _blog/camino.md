@@ -5,7 +5,7 @@ description: "I completed an 11 day hike from Libson, Portugal to Santiago de Co
 order: 7
 ---
 
-![](/static/svg.svg) The route walked from Porto to Santiago de Compostela
+![](/static/svg.svg) The route walked from Porto to Santiago de Compostela. 
 
 I recently walked the Camino De Santiago. The Camino is a long, Christian pilgrimage that focuses on self-reflection. I was prepared for the physical challenge of the Camino. I had decent socks, a new backpack, and the training I had completed left me in good shape. The thing I did not prepare for was the mental challenge ahead of me.
 
