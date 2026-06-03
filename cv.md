@@ -5,7 +5,7 @@ layout: default
 
 ## Summary
 
-Berlin-based Platform Engineer with 5+ years of experience building scalable cloud infrastructure on AWS and Kubernetes. Known for delivering measurable cost savings and for making technical concepts accessible — both to engineers through mentorship and to non-technical teams through internal training.
+Berlin-based Platform Engineer with 5+ years of experience building scalable cloud infrastructure on AWS and Kubernetes. Known for delivering measurable cost savings and for making technical concepts accessible both to engineers through mentorship and to non-technical teams through internal training.
 
 ## Technical Skills
 
