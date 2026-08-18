@@ -18,7 +18,7 @@ Berlin-based Platform Engineer with 7+ years of experience building scalable clo
 
 ## Selected Experience & Volunteering
 
-### Platform Engineer — Whereby (June 2023 - Present)
+### Senior Platform Engineer — Whereby (June 2023 - Present)
 
 - Delivered $76,000 in annual savings through resource right-sizing and automation across AWS infrastructure.
 - Overhauled infrastructure and deployment processes, introducing scalable workflows that significantly improved consistency, efficiency, and developer experience.
