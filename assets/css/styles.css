@@ -76,9 +76,13 @@
          color: #516aec;
     }
      body {
+         font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+         color: #1a1a1a;
+         background-color: #ffffff;
     }
      p {
-
+         color: #333;
+         margin: 0 0 1.2em;
     }
      code {
          display: block;
@@ -89,28 +93,51 @@
          */
     }
      a {
-         color: blue
+         color: #1a1a1a;
+         text-decoration: none;
+         border-bottom: 1px solid #ccc;
+    }
+     a:hover {
+         border-bottom-color: #1a1a1a;
     }
      ul {
          display: flex;
          flex-direction: column;
          gap: 3px;
-         list-style-type: disc
+         list-style-type: disc;
+         padding-left: 1.2em;
+         margin: 0 0 1.2em;
+    }
+     li {
+         margin-bottom: 0.4em;
     }
      h1 {
-         text-transform: capitalize;
+         font-weight: 500;
+         font-size: 30px;
+         letter-spacing: 0.2px;
          text-transform: capitalize;
     }
      h2 {
-
+         font-weight: 500;
+         font-size: 21px;
+         margin: 2.2em 0 0.6em;
          text-transform: capitalize;
     }
      h3 {
+         font-weight: 500;
+         font-size: 18px;
+         margin: 1.6em 0 0.4em;
          text-transform: capitalize;
 
     }
 
      bold {
+         font-weight: 600;
+    }
+
+     small {
+         color: #999;
+         font-size: 0.85em;
     }
 
      img {
@@ -120,6 +147,3 @@
          background-color: #fff 
     }
 }
- 
- 
-
