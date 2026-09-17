@@ -105,7 +105,7 @@ li.L9 {
     }
 
     body {
-        font-family: menlo, monospace;
+        /* font-family: menlo, monospace; */
         max-width: 450px;
         margin-top: 5rem;
         margin-right: 2.5rem;
