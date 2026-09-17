@@ -34,7 +34,7 @@ collections:
     output: true
 
 markdown: kramdown
-highlighter: rouge
+highlighter: null
 
 permalink: /:title.html
 
