@@ -5,15 +5,20 @@ layout: default
 
 ## Summary
 
-Berlin-based Platform Engineer with 7+ years of experience building scalable cloud infrastructure on AWS and Kubernetes. Known for delivering measurable cost savings and for making technical concepts accessible both to engineers through mentorship and to non-technical teams through internal training.
+Berlin-based Platform Engineer with 6 years of experience building scalable cloud infrastructure on AWS and Kubernetes. Known for delivering measurable cost savings and for making technical concepts accessible both to engineers through mentorship and to non-technical teams through internal training.
 
 ## Technical Skills
 
 **Languages:** Golang, Python, TypeScript, SQL, Bash
+
 **Cloud Platforms:** AWS (EC2, Lambda, RDS, IAM, CloudWatch)
+
 **Infrastructure & Orchestration:** Kubernetes, Docker, Terraform, Linux
+
 **Observability:** Datadog, Grafana, Prometheus, Opensearch
+
 **CI/CD:** Jenkins, GitHub Actions, ArgoCD
+
 **Data & Analytics:** Metabase, PostgreSQL, Dagster
 
 ## Selected Experience & Volunteering
@@ -31,7 +36,7 @@ Berlin-based Platform Engineer with 7+ years of experience building scalable clo
 
 ReDI School is a non-profit tech school providing migrants and marginalised students with free access to technical education.
 
-- Volunteer Python instructor for both Python Fundamentals and Data Analytics tracks.
+- Volunteer instructor in Python Fundamentals, Project Development, and Data Analytics tracks.
 - Led an initiative with industry professionals to deliver mock interviews, preparing students for real-world technical hiring processes.
 - 1:1 mentorship with junior engineers hoping to land their first role.
 
