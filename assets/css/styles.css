@@ -5,13 +5,25 @@ ul {
     list-style-type: disc;
 }
 
+li {
+    margin-bottom: 0.5em;
+}
+
 code {
-        display: block;
+    display: block;
     white-space: pre-wrap;
-    font-size: 0.4em;
+    font-size: 0.85em;
 }
 
 img {
     max-width: min(450px, 85vw);
+}
+
+a {
+    color: blue;
+}
+
+.back-link {
+    margin-top: 2em;
 }
 

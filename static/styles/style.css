@@ -19,7 +19,8 @@ img {
     max-width: min(450px, 85vw);
 }
 
-a {
+a,
+a:visited {
     color: blue;
 }
 
