@@ -47,7 +47,7 @@
   line-height:1.3;
   font-size:17px;
 ">
-        <h1>{{ page.title | capitalize}}</h1>
+        <h1>{% if page.upcase_title %}{{ page.title | upcase }}{% else %}{{ page.title | capitalize }}{% endif %}</h1>
         {{ content }} {% include footer.html %}
       </body>
     </html>
