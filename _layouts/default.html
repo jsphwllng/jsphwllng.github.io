@@ -30,17 +30,17 @@
   <body>
     <header>
       <nav>
-        <a href="/">Joseph Welling</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact</a>
+        <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Joseph Welling</a>
+        <a href="/blog"{% if page.url == "/blog" or page.collection == "blog" %} aria-current="page"{% endif %}>Blog</a>
+        <a href="/contact"{% if page.url == "/contact" %} aria-current="page"{% endif %}>Contact</a>
       </nav>
     </header>
     <main>
-      {% if page.url != "/" and page.title %}
+      {% if page.collection == "blog" %}
       <h1>{{ page.title }}</h1>
-      {% endif %}
-      {% if page.collection == "blog" and page.description %}
+      {% if page.description %}
       <div class="meta">{{ page.description }}</div>
+      {% endif %}
       {% endif %}
       {{ content }}
     </main>
