@@ -2,18 +2,11 @@
 layout: default
 title: Blog
 ---
-<h1>{{title}}</h1>
-<ul>
+<ul class="list">
   {% assign posts = site.blog | sort: 'order' | reverse %}
-  {% comment %}
-  {% count is 20 %}
-  {% endcomment %}
   {% for blog in posts %}
   {% unless blog.title == "Default" %}
-    <li>
-<a href="{{ blog.url }}">{{ blog.title | downcase }}</a>
-  </li>
+  <li><a href="{{ blog.url }}">{{ blog.title | downcase }}</a><span>{{ blog.order | prepend: '0' | slice: -2, 2 }}</span></li>
   {% endunless %}
   {% endfor %}
 </ul>
-

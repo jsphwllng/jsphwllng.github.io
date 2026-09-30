@@ -1,23 +1,14 @@
-<!doctype html>
 {% if page.collection == "blog" %}
-<p class="back-link"><a href="/blog">back</a></p>
-    </div>
+<footer><a href="/blog">← Back</a></footer>
 {% elsif page.url != "/" %}
-      <p class="back-link"><a href="/">
-        back</p>
-      </a>
+<footer><a href="/">← Back</a></footer>
 {% endif %}
-
-  </body>
-</html>
 
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 <script>
-  $(document).ready(function () {
-    mermaid.initialize({
-      startOnLoad:true,
-      theme: "default",
-    });
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!window.mermaid) return;
+    mermaid.initialize({ startOnLoad: false, theme: "neutral" });
+    mermaid.init(undefined, document.querySelectorAll(".language-mermaid"));
   });
 </script>

@@ -1,29 +1,140 @@
-ul {
+:root {
+    --bg: #fff;
+    --fg: #000;
+    --muted: rgb(0 0 0 / 0.5);
+    --font: Inter, "Helvetica Neue", Arial, sans-serif;
+    --xs: 0.625rem; /* 10px: nav, headings, labels */
+    --sm: 0.75rem; /* 12px: body */
+    --track: 0.08em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px 24px 64px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: var(--sm);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+main a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.meta {
+    font-size: var(--xs);
+    font-weight: 400;
+    letter-spacing: var(--track);
+    text-transform: uppercase;
+}
+
+header nav {
     display: flex;
-    flex-direction: column;
-    gap: 3px;
-    list-style-type: disc;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main {
+    max-width: 34rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    margin: 0 0 2.5rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 2.5rem 0 0.75rem;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+.meta {
+    color: var(--muted);
+    margin: -1.5rem 0 2.5rem;
+}
+
+ul,
+ol {
+    padding-left: 1.1em;
+    margin: 0 0 1em;
 }
 
 li {
-    margin-bottom: 0.5em;
+    padding-block: 1px;
+}
+
+ul.list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.list li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    padding-block: 6px;
+}
+
+ul.list a {
+    text-decoration: none;
+}
+
+ul.list a:hover {
+    text-decoration: underline;
+}
+
+ul.list span {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
 }
 
 code {
     display: block;
     white-space: pre-wrap;
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 
 img {
-    max-width: min(450px, 85vw);
+    max-width: min(450px, 100%);
 }
 
-a {
-    color: blue;
+footer {
+    margin-top: 5rem;
+    color: var(--muted);
 }
-
-.back-link {
-    margin-top: 2em;
-}
-

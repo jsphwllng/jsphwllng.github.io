@@ -1,55 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <html prefix="og: http://ogp.me/ns#">
-      <!-- HTML Meta Tags -->
-      <meta name="description" content="{{ page.description }}" />
+    <!-- HTML Meta Tags -->
+    <meta name="description" content="{{ page.description }}" />
 
-      <!-- Facebook Meta Tags -->
-      <meta
-        prefix="og: http://ogp.me/ns#"
-        property="og:type"
-        content="website"
-      />
-      <meta
-        prefix="og: http://ogp.me/ns#"
-        property="og:title"
-        content="{{ page.title }}"
-      />
-      <meta
-        prefix="og: http://ogp.me/ns#"
-        property="og:description"
-        content="{{ page.description }}"
-      />
-      <meta
-        prefix="og: http://ogp.me/ns#"
-        property="og:image"
-        content="static/preview.jpg"
-      />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image" content="static/preview.jpg" />
 
-      <!-- Twitter Meta Tags -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="josephwelling.com" />
-      <meta property="twitter:url" content="{{ page.title }}" />
-      <meta name="twitter:title" content="{{ page.title }}" />
-      <meta name="twitter:description" content="{{ page.description }}" />
-      <meta name="twitter:image" content="/static/preview.jpg" />
-      <title>{{ page.title }}</title>
-      <link rel="stylesheet" href="/assets/css/styles.css" />
-
-      <link rel="shortcut icon" type="image/png" href="../favicon.ico" />
-      <body style="
-  margin:40px ;
-  max-width:650px;
-  line-height:1.3;
-  font-size:17px;
-">
-        <h1>{% if page.upcase_title %}{{ page.title | upcase }}{% else %}{{ page.title | capitalize }}{% endif %}</h1>
-        {{ content }} {% include footer.html %}
-      </body>
-    </html>
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="josephwelling.com" />
+    <meta property="twitter:url" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.description }}" />
+    <meta name="twitter:image" content="/static/preview.jpg" />
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
   </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Joseph Welling</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      {% if page.url != "/" and page.title %}
+      <h1>{{ page.title }}</h1>
+      {% endif %}
+      {% if page.collection == "blog" and page.description %}
+      <div class="meta">{{ page.description }}</div>
+      {% endif %}
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>
