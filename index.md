@@ -8,4 +8,4 @@ Berlin based platform engineer with 6 years [experience](/cv), currently Senior 
 
 I am passionate about helping people from marginalised backgrounds get their start in tech, and volunteer as a Python instructor at [ReDI School](https://www.redi-school.org). I'm an avid (but bad) chess player, bread maker, lager drinker and pickled-food expert.
 
-Read the [blog](/blog), [get in touch](/contact), or see the [cv](/cv). Not actively looking for a new role.
+Read the [blog](/blog), [get in touch](/contact), or see the [cv](/cv).
