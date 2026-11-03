@@ -21,13 +21,13 @@ The goal was a box that:
 So: one `terraform apply`, wait a few minutes, `ssh` in, type `claude`. That's the whole user journey.
 
 ```mermaid
-graph LR
+graph TD
   laptop[My laptop] -->|terraform apply| tf[Terraform]
-  tf -->|zipped config| s3[(Private S3 bucket)]
-  tf -->|GitHub token| ssm[(SSM Parameter Store)]
+  tf -->|config| s3[(S3 bucket)]
+  tf -->|GitHub token| ssm[(SSM)]
   tf -->|creates| box[EC2 box]
-  s3 -->|pulled at boot| box
-  ssm -->|read at boot| box
+  s3 -->|at boot| box
+  ssm -->|at boot| box
   laptop -->|ssh over VPN| box
   box -->|clones repos| gh[GitHub]
 ```
@@ -48,7 +48,7 @@ This was the bit that took the most thought. Claude Code keeps per-project memor
 
 The fix was to key memories relative to the home directory instead. My dotfiles keep them in a folder named by the project's path relative to home, and the sync script adds the box's own home prefix back on.
 
-The other rule: memories are **copied, not linked**, and never overwritten. Claude writes new memories on the box and a re-sync must never stomp on them. If I want something Claude learned on the box to come home it gets committed back into my dotfiles like anything else.
+The other rule: memories are copied, not linked, and never overwritten. Claude writes new memories on the box and a re-sync must never stomp on them. If I want something Claude learned on the box to come home it gets committed back into my dotfiles like anything else.
 
 GitHub and AWS without me typing anything
 -----------------------------------------
