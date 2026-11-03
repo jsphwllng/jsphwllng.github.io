@@ -122,9 +122,12 @@ ul.list a:hover {
 }
 
 code {
+    font-size: 0.9em;
+}
+
+pre code {
     display: block;
     white-space: pre-wrap;
-    font-size: 0.9em;
 }
 
 img {
