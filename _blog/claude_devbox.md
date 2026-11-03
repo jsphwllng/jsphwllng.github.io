@@ -18,7 +18,7 @@ The goal was a box that:
 * can be destroyed and rebuilt with one command
 * isn't an open door to the internet
 
-So: one `terraform apply`, wait a few minutes, `ssh` in, type `claude`. That's the whole user journey.
+So: one `terraform apply`, wait a few minutes, `ssh` in, type `claude`. That's it.
 
 ```mermaid
 graph TD
@@ -35,7 +35,7 @@ graph TD
 Making it feel like home
 ------------------------
 
-My dotfiles repo is private, which means the box can't just `git clone` it before it has GitHub credentials. Rather than solving a chicken and egg problem I just went around it. Terraform zips up the relevant config straight from my local checkout (uncommitted changes and all) and drops it into a private S3 bucket.
+My dotfiles repo is private, which means the box can't just `git clone` it before it has GitHub credentials. Rather than solving a chicken and egg problem I just went around it. Terraform zips up the relevant config straight from my local machine and drops it into a private S3 bucket.
 
 The bundle is deliberately picky. It takes my git config, nvim, lazygit, my global Claude settings and `CLAUDE.md`, slash commands, skills and MCP config. Anything Mac-only or anything with secrets in it stays at home.
 
@@ -47,8 +47,6 @@ Memories
 This was the bit that took the most thought. Claude Code keeps per-project memory under `~/.claude/projects/<path>/memory/` where `<path>` is the absolute path of the project with slashes turned into dashes. On my machine that's `-home-jsphwllng-code-project`. On the box it's `-home-ubuntu-code-project`. Same project, different folder, so Claude on the box would have the memory of a goldfish.
 
 The fix was to key memories relative to the home directory instead. My dotfiles keep them in a folder named by the project's path relative to home, and the sync script adds the box's own home prefix back on.
-
-The other rule: memories are copied, not linked, and never overwritten. Claude writes new memories on the box and a re-sync must never stomp on them. If I want something Claude learned on the box to come home it gets committed back into my dotfiles like anything else.
 
 GitHub and AWS without me typing anything
 -----------------------------------------
@@ -68,11 +66,12 @@ The whole point of this was to keep Claude in a sandbox rather than on my laptop
 * the instance role can read exactly two things: the dotfiles zip and the GitHub token
 * the root volume is encrypted
 * it has its own VPC so it doesn't care whether the account still has a default one
+* the box does not have aws, salesforce, kubectl, or any other tools that could affect production
 
 Day to day
 ----------
 
-I start the box, run a little script that writes its current IP into my ssh config, `ssh` in, open tmux and run `claude`. The public IP changes every time the box starts, so that script also resets the known_hosts entry so a rebuild doesn't scream about host keys. When I'm done for the week I stop the instance and stop paying for it. When I've broken it beyond repair I tell Terraform to replace the instance, and a few minutes later I've got a fresh one that remembers everything.
+I start the box, run a little script that writes its current IP into my ssh config, `ssh` in, open tmux and run `claude`. The public IP changes every time the box starts, so that script also resets the known_hosts entry so a rebuild doesn't scream about host keys. When I'm done for the week I stop the instance and stop paying for it. When I've broken it beyond repair I terraform replace the instance, and a few minutes later I've got a fresh one.
 
 Was it worth it?
 ----------------
