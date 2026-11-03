@@ -48,7 +48,7 @@ This was the bit that took the most thought. Claude Code keeps per-project memor
 
 The fix was to key memories relative to the home directory instead. My dotfiles keep them in a folder named by the project's path relative to home, and the sync script adds the box's own home prefix back on.
 
-GitHub and AWS without me typing anything
+GitHub without me typing anything
 -----------------------------------------
 
 I didn't want to `gh auth login` every time I rebuilt the box. The GitHub token goes into SSM Parameter Store as an encrypted `SecureString`, never into user_data where anyone with `DescribeInstances` could read it. At boot the instance reads it with its role, hands it to `gh` and deletes the temp file.
