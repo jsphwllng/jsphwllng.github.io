@@ -5,8 +5,6 @@ description: "Remember to spend more time building a place for your AI to write 
 order: 22
 ---
 
-Remember to spend more time building a place for your AI to write code than the time it saves you writing code.
-
 I use Claude for work, but I don't want it running directly on my work laptop, and I'd like to be able to close the lid at the end of the day without killing whatever it's halfway through. The answer was a small EC2 instance and too much Terraform.
 
 The Idea
