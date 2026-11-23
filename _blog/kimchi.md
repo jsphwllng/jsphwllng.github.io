@@ -2,7 +2,7 @@
 layout: default
 title: minimal viable product kimchi
 description: "An ugly but production ready kimchi."
-order: 9
+order: 4
 ---
 
 I am a firm believer in building an ugly system quickly and then iterating on it. APIs do not need to be perfect on their first release. Getting something shipped and then being able to ask for feedback is infinitely more valuable than trying to imagine what customers could possibly want. There will always be refactoring that needs to be done, small improvements, changes to taste, and refactoring. The Linux kernel is still under active development and perfection is the enemy of progress. I, therefore, introduce you to my Minimal Viable Product Kimchi.
@@ -41,4 +41,4 @@ Celebrate success!
 
 Hey, you made something cool! Whether it's kimchi or an API: you need to let people know that you made it! Celebrate with your team/sous chef in public and praise people where it needs to be done. If there is negative feedback, which is very common for my cooking, make sure to do it personally and privately. The world doesn't need to know that the kimchi tastes like it was made by a toddler - only the chef does. Bringing negative feedback with a clear direction and outcome will help the development of the next batch.
 
-![](../static/mvp.jpg) Minimal Viable Product Kimchi being assembled
+![](/static/kimchi/mvp.jpg) Minimal Viable Product Kimchi being assembled

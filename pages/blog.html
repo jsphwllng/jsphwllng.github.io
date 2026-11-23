@@ -1,12 +1,11 @@
 ---
+permalink: /blog.html
 layout: default
 title: Blog
 ---
 <ul class="list">
   {% assign posts = site.blog | sort: 'order' | reverse %}
   {% for blog in posts %}
-  {% unless blog.title == "Default" %}
   <li><a href="{{ blog.url }}">{{ blog.title | downcase }}</a></li>
-  {% endunless %}
   {% endfor %}
 </ul>

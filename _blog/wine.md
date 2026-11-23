@@ -2,7 +2,7 @@
 layout: default
 title: how making wine made me a better software engineer
 description: "A tenuously linked rambling on code quality and producing wine."
-order: 8
+order: 3
 ---
 
 
@@ -34,4 +34,4 @@ My biggest learning in coding, like with wine, came from listening to feedback. 
 
 While, like wine, I am still relatively new in my software engineering career, it is important to focus on the learning and future ahead. Realising that there are approaches, techniques, recipes, and frameworks that you don't understand does not mean that they are locked off forever. I didn't know how to make a wine 2 years ago and I'm sure that 2 years from now there will be aspects of software engineering that I won't fully understand but I am excited to get there.
 
-![](/static/winemachinepng.png) A junior engineer and, soon to be, drinker of bad wine.
+![](/static/wine/machine.png) A junior engineer and, soon to be, drinker of bad wine.

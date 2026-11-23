@@ -1,4 +1,5 @@
 ---
+permalink: /brag.html
 title: BRAG
 layout: default
 ---

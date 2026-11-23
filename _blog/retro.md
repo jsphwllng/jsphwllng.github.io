@@ -1,7 +1,7 @@
 ---
 layout: default
-title: How I learned self advocacy through teaching students how to write python
-order: 21
+title: how I learned self advocacy through teaching students how to write python
+order: 10
 description: A long ramble about boasting, a reflection on my career to date, and teaching students how to write python.
 ---
 I am a good software engineer. I have a good understanding of software engineering principles, I work hard, I learn quickly, and I try not to make the same mistake twice. I am happy working on my own for long periods of time, I can solve puzzles well, and I genuinely enjoy coding.

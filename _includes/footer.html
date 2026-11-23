@@ -3,12 +3,3 @@
 {% elsif page.url != "/" %}
 <footer><a href="/">← Back</a></footer>
 {% endif %}
-
-<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: "neutral" });
-    mermaid.init(undefined, document.querySelectorAll(".language-mermaid"));
-  });
-</script>

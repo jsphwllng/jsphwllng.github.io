@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Bad films and the death of an artist
-order: 20
+title: bad films and the death of an artist
+description: "David Lynch, bad art, and what good cinema actually is"
+order: 9
 ---
 David Lynch passed away yesterday. Many of Lynch's films made me question what good cinema really is, what it means to consume art, and the individual understanding of art.
 

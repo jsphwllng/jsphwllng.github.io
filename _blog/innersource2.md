@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "INNERSOURCE: AN ANARCHIST APPROACH TO PROJECT MANAGEMENT"
+title: "innersource: an anarchist approach to project management"
 description: 	"maintaining your innersource project so that everyone can get involved"
 
-order: 13
+order: 7
 ---
 So, you have an innersource project and someone has built a feature. What now? Who owns it? Did this 10x developer just increase my workload?
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Reflections on a coding bootcamp
-description: "I recently completed a 9 week Full Stack Development bootcamp in Berlin and I have some thoughts on the whole process and hopefully I can help some people decide whether or not it is for them."
+title: reflections on a coding bootcamp
+description: "what a 9 week Berlin bootcamp was actually like, and whether it is for you"
 order: 0
 ---
 

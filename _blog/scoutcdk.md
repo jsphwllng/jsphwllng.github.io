@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "scoutCDK: how we solved best practice adoption"
-description: "Defining best practices is only half the story"
-order: 5
+description: "how Scout24 got teams to actually follow infrastructure best practices"
+order: 1
 ---
 
 
